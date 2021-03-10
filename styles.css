@@ -1,0 +1,126 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
+
+:root {
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "kumbh sans", sans-serif;
+    overflow: hidden;
+    background: hsl(185, 75%, 39%);
+}
+
+section {
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.attribution {
+    background: hsl(185, 75%, 39%);
+}
+
+.card {
+    width: 350px;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.card_body {
+    padding: 0 20px 25px;
+}
+
+.card_header {
+    background-image: url("./images/bg-pattern-card.svg");
+    background-size: cover;
+    height: 150px;
+}
+
+.img-holder {
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+    width: 100px;
+    height: 100px;
+}
+
+.img-holder img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.name_age {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.age {
+    font-weight: 400;
+    margin-left: 6px;
+}
+
+.location {
+    font-size: .9rem;
+}
+
+.age,
+.location,
+.meta {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.card_footer {
+    border-top: 1px solid hsl(0, 0%, 59%);
+    display: flex;
+    padding: 0 25px;
+}
+
+.card_footer .item {
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_footer .item .value {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.card_footer .item .meta {
+    font-size: .7rem;
+    letter-spacing: 1px;
+}
+
+.background_img .top,
+.background_img .bottom {
+    position: absolute;
+    width:800px;
+    height: auto;
+}
+.background_img .top {
+    top: -233px;
+    left: -175px;
+}
+.background_img .bottom {
+    bottom: -233px;
+    right: -175px;
+}
